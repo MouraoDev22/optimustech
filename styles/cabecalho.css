@@ -1,0 +1,50 @@
+.cabecalho {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.125rem 5rem;
+    justify-content: center;
+}
+
+.cabecalho__logo-texto {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cabecalho__logo-texto__texto {
+    color: var(--cor-secundaria);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.cabecalho__nav {
+    display: flex;
+    gap: 2rem;
+    margin-left: 7.438rem;
+}
+
+.cabecalho__nav__link {
+    color: var(--cor-primaria);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cabecalho__usuario {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-left: 23.75rem;
+}
+
+.cabecalho__usuario__link {
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+
+.cabecalho__usuario__link-destaque {
+    color: var(--cor-fundo);
+    background-color: var(--cor-terciaria);
+    padding: 0.625rem 1.125rem;
+    border: 0.063rem solid var(--cor-terciaria);
+    border-radius: 0.5rem;
+}
