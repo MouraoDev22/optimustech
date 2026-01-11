@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('./styles/header-top.css');
+@import url('./styles/header-bottom.css');
 
 :root {
     --fonte-primaria: 'Inter', sans-serif;
@@ -7,6 +8,7 @@
     --cor-primaria: #667085;
     --cor-secundaria: #3A404E;
     --cor-terciaria: #8E2424;
+    --cor-titulo: #101828;
 }
 
 body {

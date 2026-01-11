@@ -1,0 +1,30 @@
+.header-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 20.25rem;
+    text-align: center;
+}
+
+.header-bottom__span {
+    color: var(--cor-terciaria);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 6rem;
+}
+
+.header-bottom__titulo {
+    color: var(--cor-titulo);
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0 2rem;
+}
+
+.header-bottom__paragrafo {
+    color: var(--cor-primaria);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.75rem 0;
+}
