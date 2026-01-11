@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
     padding: 0 20.25rem;
     text-align: center;
 }
@@ -18,7 +17,7 @@
     color: var(--cor-titulo);
     font-size: 3rem;
     font-weight: 600;
-    padding: 0 2rem;
+    margin: 1.5rem 0 2.25rem 0;
 }
 
 .header-bottom__paragrafo {
@@ -26,5 +25,4 @@
     font-size: 1.25rem;
     font-weight: 400;
     text-align: center;
-    padding: 0.75rem 0;
 }
