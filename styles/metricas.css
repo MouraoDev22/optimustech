@@ -1,0 +1,34 @@
+.metricas__lista {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.688rem;
+    padding: 0 7rem 6rem 7rem;
+}
+
+.metricas__lista__item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.metricas__lista__item__numeros {
+    color: var(--cor-terciaria);
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.metricas__lista__item__span {
+    color: var(--cor-titulo);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0.75rem 0 0.5rem 0;
+}
+
+.metricas__lista__item__texto {
+    color: var(--cor-primaria);
+    font-size: 1rem;
+    font-weight: 400;
+}
