@@ -1,0 +1,49 @@
+.vagas-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 4rem;
+    padding: 0 21rem 6rem 21rem;
+}
+
+.vagas-bottom__categoria {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+.vagas-bottom__categoria__titulo {
+    color: var(--cor-titulo);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.vagas-bottom__categoria__especialidade {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 30.063rem 1.75rem 1.5rem;
+    border: 0.063rem solid var(--cor-borda);
+    border-radius: 0.5rem;
+    gap: 1.5rem;
+}
+
+.vagas-bottom__categoria__especialidade__titulo {
+    color: var(--cor-titulo);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.vagas-bottom__categoria__especialidade__textos {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.vagas-bottom__categoria__especialidade__textos__texto {
+    color: var(--cor-primaria);
+    font-size: 1rem;
+    font-weight: 500;
+}

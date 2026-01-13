@@ -3,6 +3,7 @@
 @import url('./styles/header-bottom.css');
 @import url('./styles/metricas.css');
 @import url('./styles/vagas-top.css');
+@import url('./styles/vagas-bottom.css');
 
 :root {
     --fonte-primaria: 'Inter', sans-serif;
@@ -12,6 +13,7 @@
     --cor-terciaria: #8E2424;
     --cor-titulo: #101828;
     --cor-fundo-secundaria: #8E24240D;
+    --cor-borda: #EAECF0;
 }
 
 body {
