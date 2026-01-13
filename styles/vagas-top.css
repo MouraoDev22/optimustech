@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     padding: 0 7rem 0 7rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .vagas-top__span {
