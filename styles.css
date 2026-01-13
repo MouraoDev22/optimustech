@@ -2,6 +2,7 @@
 @import url('./styles/header-top.css');
 @import url('./styles/header-bottom.css');
 @import url('./styles/metricas.css');
+@import url('./styles/vagas-top.css');
 
 :root {
     --fonte-primaria: 'Inter', sans-serif;
