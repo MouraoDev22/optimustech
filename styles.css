@@ -4,6 +4,7 @@
 @import url('./styles/metricas.css');
 @import url('./styles/vagas-top.css');
 @import url('./styles/vagas-bottom.css');
+@import url('./styles/depoimento.css');
 
 :root {
     --fonte-primaria: 'Inter', sans-serif;

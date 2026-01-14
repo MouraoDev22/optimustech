@@ -1,0 +1,44 @@
+.depoimento {
+    background-color: var(--cor-fundo-secundaria);
+    text-align: center;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7rem 6rem 7rem;
+    padding: 4rem;
+}
+
+.depoimento__span {
+    color: var(--cor-terciaria);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.depoimento__titulo {
+    color: var(--cor-titulo);
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin: 1rem 0 2rem 0;
+}
+
+.depoimento__pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.depoimento__pessoa__nome {
+    color: var(--cor-titulo);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem 0 0.25rem 0;
+}
+
+.depoimento__pessoa__cargo {
+    color: var(--cor-primaria);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
