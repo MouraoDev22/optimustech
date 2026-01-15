@@ -54,7 +54,7 @@
 }
 
 .header-top__usuario__link-destaque {
-    color: var(--cor-fundo);
+    color: var(--cor-fundo-primaria);
     background-color: var(--cor-terciaria);
     border: 0.063rem solid var(--cor-terciaria);
     border-radius: 0.5rem;

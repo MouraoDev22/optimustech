@@ -1,0 +1,49 @@
+.rodape {
+    background-color: var(--cor-fundo-terciaria);
+    padding: 6rem 21rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape__titulo {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+.rodape__span {
+    font-size: 1.25rem;
+    color: var(--cor-primaria);
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.rodape__formulario {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.rodape__formulario__input {
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
+    border: 0.063rem solid var(--cor-borda-secundaria);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-primaria);
+    width: 22.5rem;
+    height: 3rem;
+}
+
+.rodape__formulario__botao {
+    color: var(--cor-fundo-primaria);
+    background-color: var(--cor-terciaria);
+    border: 0.063rem solid var(--cor-terciaria);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    font-weight: 500;
+}

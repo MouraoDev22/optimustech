@@ -5,22 +5,25 @@
 @import url('./styles/vagas-top.css');
 @import url('./styles/vagas-bottom.css');
 @import url('./styles/depoimento.css');
+@import url('./styles/footer.css');
 
 :root {
     --fonte-primaria: 'Inter', sans-serif;
-    --cor-fundo: #ffffff;
+    --cor-fundo-primaria: #ffffff;
+    --cor-fundo-secundaria: #8E24240D;
+    --cor-fundo-terciaria: #F9FAFB;
     --cor-primaria: #667085;
     --cor-secundaria: #3A404E;
     --cor-terciaria: #8E2424;
     --cor-titulo: #101828;
-    --cor-fundo-secundaria: #8E24240D;
-    --cor-borda: #EAECF0;
+    --cor-borda-primaria: #EAECF0;
+    --cor-borda-secundaria: #D0D5DD;
 }
 
 body {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1rem;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-fundo-primaria);
     color: var(--cor-primaria);
 }
