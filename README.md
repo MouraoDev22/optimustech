@@ -31,7 +31,7 @@ Este projeto consiste no desenvolvimento de uma landing page responsiva para a *
 ### Executar online
 
 Acesse diretamente pelo GitHub Pages
-[https://mouraodev22.github.io/alurabooks/](https://mouraodev22.github.io/alurabooks/)
+[https://mouraodev22.github.io/optimustech/](https://mouraodev22.github.io/optimustech/)
 
 ---
 
